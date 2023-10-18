@@ -24,8 +24,11 @@ function App() {
       setCounter(counter + 1);
       setCounter(counter + 1);
     */
-    // So here the function calls will be sent in batches.So, react will see them as the same operation and perform it only once.So, the counter will increase by only 1 count.
-    //To increase it by four counts, use the callback which the setCounter accepts and increase it one by one.So, the first function will be called first, the callback will be executed and the next function call will be executed.
+    // Here, the function calls will be sent in batches.
+    // So, react will see them as the same operation and perform it only once.
+    // Therefore, the counter will increase by only 1 count.
+    // To increase it by four counts, use the callback which the setCounter accepts and increase it one by one.
+    // So, the first function will be called first, the callback will be executed and the next function call will be executed.
     /*
       setCounter((prevCounter) => prevCounter + 1);
       setCounter((prevCounter) => prevCounter + 1);

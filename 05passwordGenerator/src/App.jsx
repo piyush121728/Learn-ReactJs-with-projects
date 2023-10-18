@@ -41,7 +41,8 @@ function App() {
 
   }, [password]);
 
-  // Here, we use the react useEffect hook to call the passwordGenerator function when user tigger any of the variable and state among length, charAllowed, numAllowed and passwordGenerator
+  // Here, we use the react useEffect hook to call the passwordGenerator function 
+  // when user tigger any of the variable and state among length, charAllowed, numAllowed and passwordGenerator
   useEffect(() => { passwordGenerator() }, [length, charAllowed, numAllowed, passwordGenerator]);
 
 
