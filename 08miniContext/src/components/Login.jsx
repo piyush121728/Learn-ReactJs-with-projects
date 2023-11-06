@@ -7,6 +7,7 @@ function Login() {
 
     //Step 3 : We can use the useContext hook to access the data from UserContext provider
     const {setUser} = useContext(UserContext);
+    
 
     const handleSubmit = (e) =>
     {

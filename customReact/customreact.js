@@ -27,7 +27,7 @@ const reactElement = {
 
 function customRender(reactElement, mainContainer) {
 
-    //create a dom element
+    //create a dom html element
     const domElement = document.createElement(reactElement.type);
 
     //set attributes or properties in domElement

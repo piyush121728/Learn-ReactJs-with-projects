@@ -26,8 +26,6 @@ function App() {
       <Card username = {name} btnText = "Click Me!"/>
       <Card username="Ayush Kumar" btnText = "Visit Me!" />
       <Card username="Aman Kumar"/>
-
-
     </>
   )
 }

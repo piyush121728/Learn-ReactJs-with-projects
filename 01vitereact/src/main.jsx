@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 
-//1. Creating react element without using createElement method of react
+//1. Creating react element without using createElement method of dom
 
 /*
 const reactElement = {
@@ -19,7 +19,8 @@ const reactElement = {
   children: 'Click me to visit Google'
 }
 
-//Note : This element will not render because it does not made by using createElement method of react
+//Note : This element will not render because it does not made by using createElement method of react react dom
+
 */
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -51,6 +52,7 @@ To render a React element, first pass the DOM element to ReactDOM.createRoot(),
 then pass the React element to root.render():
 */
 
+//create a react root which refer to a div of index.html which id is 'root' and render the react component inside the root
 ReactDOM.createRoot(document.getElementById('root')).render(
 
   <App />
